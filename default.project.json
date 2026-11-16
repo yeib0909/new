@@ -1,0 +1,36 @@
+{
+  "name": "Proteccion Presidencial",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Config": {
+        "$path": "src/ReplicatedStorage/Config.lua"
+      },
+      "Rules": {
+        "$path": "src/ReplicatedStorage/Rules.lua"
+      },
+      "Progress": {
+        "$path": "src/ReplicatedStorage/Progress.lua"
+      },
+      "ProfileLease": {
+        "$path": "src/ReplicatedStorage/ProfileLease.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Game": {
+        "$path": "src/ServerScriptService/Game.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/Client.client.lua"
+        }
+      }
+    }
+  }
+}
